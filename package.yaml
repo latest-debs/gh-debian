@@ -1,0 +1,9 @@
+# Package definition for gh
+
+package_name: gh
+github_repo: cli/cli
+artifact_format: tar.gz
+description: "GitHub’s official command line tool"
+license: MIT
+
+# Build for all Debian suites and all supported architectures.

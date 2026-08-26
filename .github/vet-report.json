@@ -1,0 +1,45 @@
+{
+  "gate": "pass",
+  "license": {
+    "declared": "MIT",
+    "detected": [
+      "MIT"
+    ],
+    "license_files": [
+      "//tmp/tmp.5ABffTvluB/x/gh_2.98.0_linux_386/LICENSE"
+    ],
+    "matches": true,
+    "status": "pass",
+    "detail": "declared MIT matches detected MIT"
+  },
+  "asset": {
+    "format": "tar.gz",
+    "size": 13918568,
+    "valid": true,
+    "is_html": false,
+    "binary": "gh",
+    "elf_arch": "i386",
+    "status": "pass",
+    "detail": "valid tar.gz archive containing 1 ELF executable(s); first: gh (i386); release covers: amd64 arm64 "
+  },
+  "architectures": {
+    "covered": [
+      "amd64",
+      "arm64"
+    ],
+    "missing": [
+      "armel",
+      "armhf",
+      "i386",
+      "ppc64el",
+      "s390x",
+      "riscv64",
+      "loong64"
+    ],
+    "assets": {
+      "amd64": "gh_2.98.0_linux_amd64.tar.gz",
+      "arm64": "gh_2.98.0_linux_arm64.tar.gz"
+    }
+  },
+  "vetted_at": "2026-08-26T04:29:00Z"
+}
