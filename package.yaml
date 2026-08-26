@@ -5,5 +5,9 @@ github_repo: cli/cli
 artifact_format: tar.gz
 description: "GitHub’s official command line tool"
 license: MIT
+# cli/cli's Linux tarballs contain bin/gh nested inside a versioned
+# directory (gh_2.98.0_linux_amd64/bin/gh), not a top-level ELF, so the
+# default BUNDLE=false flatten fails with "no executables landed".
+bundle: true
 
 # Build for all Debian suites and all supported architectures.
